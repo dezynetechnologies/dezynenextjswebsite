@@ -15,7 +15,7 @@ const Footer = () => {
                                     <a href="index.html"><img src="assets/img/logo/logo.png" alt="" /></a>
                                 </div>
                                 <div className="footer-text">
-                                    <p>At vero eoset accusamus et iusto odio dignissimos ducimus qui blpraesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi </p>
+                                    <p>Dezyne Technologies is a young IT services design house formed in 2013, providing services in the area of enterprise application development, mobile application development,custom software solutions for document/workflow management. </p>
                                 </div>
                                 <div className="footer-icon">
                                     <a href="#"><i><FontAwesomeIcon icon={['fab', 'facebook-f']} /></i></a>
@@ -80,8 +80,7 @@ const Footer = () => {
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Contact Us</h4>
                                 <div className="footer-info">
-                                    <p>But I must explain to you
-                                        how all this mistaken</p>
+                                    <p>We would love to hear from you!!!</p>
                                 </div>
                                 <ul className="contact-link">
                                     <li>
@@ -89,7 +88,7 @@ const Footer = () => {
                                             <i className="far fa-phone"></i>
                                         </div>
                                         <div className="contact-address-text">
-                                            <h4>+812  (345) 778 88</h4>
+                                            <h4>+91 981 086 9242</h4>
                                         </div>
                                     </li>
                                     <li>
@@ -97,7 +96,7 @@ const Footer = () => {
                                             <i className="far fa-envelope-open"></i>
                                         </div>
                                         <div className="contact-address-text">
-                                            <h4>support@gmail.com</h4>
+                                            <h4>sales@dezyne.in</h4>
                                         </div>
                                     </li>
                                     <li>
@@ -105,7 +104,7 @@ const Footer = () => {
                                             <i className="far fa-map-marker-alt"></i>
                                         </div>
                                         <div className="contact-address-text">
-                                            <h4>227 Marion Street, Columbia</h4>
+                                            <h4>New Delhi, INDIA</h4>
                                         </div>
                                     </li>
                                 </ul>

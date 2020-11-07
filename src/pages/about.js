@@ -19,7 +19,7 @@ class About extends Component {
             <Header />
             <main>
             {/* breadcrumb-area-start */}
-            <SiteBreadcrumb pageTitle="About Us" />
+            <SiteBreadcrumb pageTitle="" />
             {/* breadcrumb-area-start */}
             {/* About Main */}
             <AboutMain />

@@ -9,7 +9,7 @@ const About = () => {
                     <div className="col-xl-4 col-lg-4 mb-30">
                         <div className="about-text">
                             <span>who we are</span>
-                            <h1>More than 23+ years we provide <span>IT solutions </span></h1>
+                            <h1>More than 50+ years of experience  in <br></br> <span>    IT solutions </span></h1>
                             <p>Sedut perspiciatis unde omnis iste natus error sitlupt tem accusantium doloremque laudantium totam    remap eriaeaque ipsa quae ab illo inventore veritatis </p>
                             <a href="#">Our Services</a>
                         </div>
@@ -21,7 +21,11 @@ const About = () => {
                     </div>
                     <div className="col-xl-4 col-lg-4 mb-30">
                         <div className="about-content">
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete acount of the system, and expound the actual teacings of the great explorer of the truth, titer-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter</p>
+                            <p>Established in 2013, Dezyne Technologies is an IT Services and Consultancy company.
+
+With over 50+ years of collective experience in the team (Worked with Global organizations like STMicroelectronics Pvt Ltd, Synopsis Pvt Ltd, Conexant Systems, Cadence Design Systems Pvt Ltd and, NEC Technologies to name a few).
+
+We specialize into providing elegant and intuitive solution in the areas of Mobile Application Development, Web Application Development, Cloud Solutions, IoT Solutions, Embedded System Design and Data Analytics.</p>
                             <div className="about-1-img">
                                 <img src="assets/img/about/01.png" alt="" />
                             </div>

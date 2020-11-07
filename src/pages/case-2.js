@@ -15,7 +15,7 @@ class CaseTwo extends Component {
                 <Header />
                 <main>
                     {/* breadcrumb-area-start */}
-                    <SiteBreadcrumb pageTitle="Case Study Two" />
+                    <SiteBreadcrumb pageTitle="Case Studies" />
                     {/* breadcrumb-area-start */}
                     {/* Case Study */}
                     <CaseTwoMain />

@@ -1,7 +1,7 @@
 /* button style */
 .btn {
 	-moz-user-select: none;
-	background: #096bd8;
+	background: $theme-color;
 	border: medium none;
 	display: inline-block;
 	font-size: 14px;
@@ -46,7 +46,7 @@
 	left: 0;
 	-webkit-transition: width 0.3s ease;
 	transition: width 0.3s ease;
-	background: #1876df;
+	background: $theme-color;
 }
 .btn-white{
 	background: $white;
@@ -118,5 +118,5 @@
 	left: 0;
 	-webkit-transition: width 0.3s ease;
 	transition: width 0.3s ease;
-	background: #1876df;
+	background: $theme-color;
 }

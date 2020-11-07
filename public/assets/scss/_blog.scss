@@ -59,7 +59,7 @@
     }
     .blog-button i{margin-left: 5px;}
     .blog-text > a:hover .blog-button{color: $white;}
-    .blog-text > a:hover{border-color:#1065c4;}
+    .blog-text > a:hover{border-color: $theme-color;}
     .blog-text > a::before {
         content: '';
         width: 0;

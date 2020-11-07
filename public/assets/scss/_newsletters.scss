@@ -75,7 +75,7 @@
 .newsletter-2-bg .newsletter-form form input {
 	height: 60px;
 	padding: 0 25px;
-	background: #0056b6;
+	background: $theme-color;
 	color: #fff;
 	font-size: 15px;
 	border-radius: 5px;
@@ -102,7 +102,7 @@
 
 .newsletter-form button {
 	-moz-user-select: none;
-	background: #096bd8;
+	background: $theme-color;
 	border: medium none;
 	display: inline-block;
 	font-size: 14px;

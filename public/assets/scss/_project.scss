@@ -287,7 +287,7 @@
 }
 .cases-button i{margin-left: 5px;}
 .our-case-text > a:hover .cases-button{color: $white;}
-.our-case-text > a:hover{border-color:#1065c4;}
+.our-case-text > a:hover{border-color: $theme-color;}
 .our-case-text > a::before {
 	content: '';
 	width: 0;

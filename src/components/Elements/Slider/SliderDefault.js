@@ -27,13 +27,18 @@ const SliderDefault = () =>  {
         className: "slider-active",
         dots: false,
         slidesToShow: 1,
-        speed: 500,
+        speed: 10,
         fade: true,
         infinite: true,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        arrows: true,
+        arrows: false,
         slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 8000,
+        cssEase: "linear",
+        pauseOnHover: true,
         responsive: [
             {
                 breakpoint: 1024,
@@ -67,7 +72,7 @@ const SliderDefault = () =>  {
             <ModalVideo channel='youtube' isOpen={isOpen} videoId='vWLcyFtni6U' onClose={() => { openModal(); }} />
             <Slider {...settings}>
                 <div className="single-slider">
-                    <div className="slider-height slider-overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-1.jpg'})`}}>
+                    <div className="single-slider slider-height slider-overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/banner-main.png'})`}}>
                         <div className="container">
                             <div className="row ">
                                 <div className="col-xl-8 col-lg-8">
@@ -90,15 +95,15 @@ const SliderDefault = () =>  {
                     </div>
                 </div>
                 <div className="single-slider">
-                    <div className="slider-height slider-overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/slider-1.jpg'})`}}>
+                    <div className="single-slider slider-height slider-overlay d-flex align-items-center" style={{ backgroundImage:`url(${'assets/img/slider/banner-3.png'})`}}>
                         <div className="container">
                             <div className="row ">
                                 <div className="col-xl-8 col-lg-8">
                                     <div className="slider-content">
-                                        <h1 data-animation="fadeInLeft" data-delay=".3s">Perfect IT Solutions For Your Business</h1>
-                                        <p data-animation="fadeInLeft" data-delay=".5s">Sed ut perspiciatis unde omnis iste natus error sit  voluptatem accusantium doloremque</p>
+                                        <h1 data-animation="fadeInLeft" data-delay=".3s">We are about Customer, Coffee and Keyboard</h1>
+                                        <p data-animation="fadeInLeft" data-delay=".5s"></p>
                                         <div className="slider-button" data-animation="fadeInUp" data-delay=".7s">
-                                            <a className="btn" href="#"><span className="btn-text">learn more <i><FontAwesomeIcon icon={['fas', 'long-arrow-right']} /></i> </span> </a>
+                                            <a className="btn" href="#"><span className="btn-text">Schedule Meeting<i><FontAwesomeIcon icon={['fas', 'long-arrow-right']} /></i> </span> </a>
                                             <a className="text-link" href="#">How It Works</a>
                                         </div>
                                     </div>

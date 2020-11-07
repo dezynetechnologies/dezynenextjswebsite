@@ -55,7 +55,7 @@
 }
 .services-button i{margin-left: 5px;}
 .services-text a:hover .services-button{color: $white;}
-.services-text a:hover{border-color:#1065c4;}
+.services-text a:hover{border-color: $theme-color;}
 .services-text a::before {
 	content: '';
 	width: 0;
@@ -281,9 +281,9 @@
 
 .services-button i{margin-left: 5px;}
 .single-services:hover .services-button{color: $white;}
-.single-services:hover .services-text a{border-color:#1065c4;}
+.single-services:hover .services-text a{border-color: $theme-color;}
 .single-services.active .services-button{color: $white;}
-.single-services.active .services-text a{border-color:#1065c4;}
+.single-services.active .services-text a{border-color: $theme-color;}
 .single-services:hover .services-text a::before{
 	width: 100%;
 	left: 0;

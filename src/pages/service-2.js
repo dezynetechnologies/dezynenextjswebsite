@@ -15,7 +15,7 @@ class ServiceTwo extends Component {
                 <Header />
                 <main>
                     {/* breadcrumb-area-start */}
-                    <SiteBreadcrumb pageTitle="Service Two" />
+                    <SiteBreadcrumb pageTitle="Services" />
                     {/* breadcrumb-area-start */}
                     {/* About Main */}
                     <ServiceTwoMain />

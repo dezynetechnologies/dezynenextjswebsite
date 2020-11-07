@@ -32,16 +32,16 @@ class HomeMain extends Component {
 	            {/* services-area-end */}
 
 	            {/* team-area-start */}
-				<Team />
-	            {/* team-area-end */}
+				
+	            {/* <Team /> team-area-end */}
 
 	            {/* cta-area-start */}
 	            <Cta />
 	            {/* cta-area-end */}
 
 	            {/* project-area-start */}
-	            <Project />
-	            {/* project-area-end */}
+	            
+	            {/* <Project /> project-area-end */}
 
 	            {/* testmonial-area-start */}
 	            <Testimonial />
@@ -60,7 +60,7 @@ class HomeMain extends Component {
 	            {/* contact-area-end */}
 
 	            {/* blog-area-start */}
-	            <Blog />
+	            { /* <Blog /> */}
 	            {/* blog-area-end */}
 
 				{/* brand-area-start */}

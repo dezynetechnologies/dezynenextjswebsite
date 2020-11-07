@@ -16,7 +16,7 @@ const ContactMain = () => {
             <main>
                 <section className="map-area">
                     <div id="contact-map" className="contact-page-map">
-                        <GoogleMapReact defaultCenter={defaultMap.center} defaultZoom={defaultMap.zoom}>
+                        <GoogleMapReact bootstrapURLKeys={{ key: 'AIzaSyBw-D3L4UjKJwNOPQcWTixt_f7PT—lO0w', libraries:['places']}} defaultCenter={defaultMap.center} defaultZoom={defaultMap.zoom}>
                             <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
                         </GoogleMapReact>
                     </div>
