@@ -40,16 +40,16 @@ const Header = () => {
 										<ul>
 											<li><Link href="/" as="/"><a>Home</a></Link>
 											</li>
-											<li><Link href="/about" as="/about"><a>About</a></Link></li>
-											<li><Link href="/service-2" as="/service-2"><a>Services</a></Link>
+											<li><Link href="#" as="/about"><a>About</a></Link></li>
+											<li><Link href="#" as="/service-2"><a>Services</a></Link>
 											</li>
-											<li><Link href="/blog" as="/blog"><a>Articles</a></Link>
+											<li><Link href="#" as="/blog"><a>Articles</a></Link>
 											</li>
-											<li><Link href="/team" as="/team"><a>Team</a></Link>
+											<li><Link href="#" as="/team"><a>Team</a></Link>
 											</li>
-											<li><Link href="/case-2" as="/case-2"><a>Case Studies</a></Link>
+											<li><Link href="#" as="/case-2"><a>Case Studies</a></Link>
 											</li>
-											<li><Link href="/contact" as="/contact"><a>Contact</a></Link></li>
+											<li><Link href="#" as="/contact"><a>Contact</a></Link></li>
 										</ul>
 									</nav>
 								</div>
