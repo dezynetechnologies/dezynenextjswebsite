@@ -33,7 +33,7 @@ const Header = () => {
 							</div>
 							<div id="right-header" className="col-xl-9 col-lg-9 col-md-6 col-4">
 								<div className="header-button f-right d-none d-lg-block">
-									<a className="btn" href="#"><span className="btn-text">Consultancy <i><FontAwesomeIcon icon={['fas', 'long-arrow-right']} /></i></span> </a>
+									<a className="btn" href="https://calendly.com/dheerajkaushik/20-minute-startup-consultation"><span className="btn-text">Consultancy <i><FontAwesomeIcon icon={['fas', 'long-arrow-right']} /></i></span> </a>
 								</div>
 								<div className="main-menu text-right d-none d-lg-block">
 									<nav id="mobile-menu">
