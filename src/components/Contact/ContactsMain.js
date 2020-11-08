@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import GoogleMapReact from 'google-map-react';
+import axios from 'axios';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -12,6 +13,35 @@ const ContactMain = () => {
             },
             zoom: 11
         };
+        /** 
+        onNameChange(event) {
+            this.setState({name: event.target.value})
+          }
+        
+          onEmailChange(event) {
+            this.setState({email: event.target.value})
+          }
+        
+          onMessageChange(event) {
+            this.setState({message: event.target.value})
+          }
+        
+          handleSubmit(e){
+            e.preventDefault();
+            axios({
+              method: "POST", 
+              url:"http://localhost:3002/send", 
+              data:  this.state
+            }).then((response)=>{
+              if (response.data.status === 'success') {
+                alert("Message Sent."); 
+                this.resetForm()
+              } else if (response.data.status === 'fail') {
+                alert("Message failed to send.")
+              }
+            })
+          }*/
+
         return (
             <main>
                 <section className="map-area">

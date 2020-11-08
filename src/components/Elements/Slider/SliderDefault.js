@@ -103,7 +103,7 @@ const SliderDefault = () =>  {
                                         <h1 data-animation="fadeInLeft" data-delay=".3s">We are about Customer, Coffee and Keyboard</h1>
                                         <p data-animation="fadeInLeft" data-delay=".5s"></p>
                                         <div className="slider-button" data-animation="fadeInUp" data-delay=".7s">
-                                            <a className="btn" href="#"><span className="btn-text">Schedule Meeting<i><FontAwesomeIcon icon={['fas', 'long-arrow-right']} /></i> </span> </a>
+                                            <a className="btn" href="https://calendly.com/dheerajkaushik/20-minute-startup-consultation"><span className="btn-text">Schedule Meeting<i><FontAwesomeIcon icon={['fas', 'long-arrow-right']} /></i> </span> </a>
                                             <a className="text-link" href="#">How It Works</a>
                                         </div>
                                     </div>
