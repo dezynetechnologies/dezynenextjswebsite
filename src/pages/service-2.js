@@ -4,7 +4,7 @@ import Footer from '../components/Layout/Footer/Footer';
 import SiteBreadcrumb from '../components/Common/Breadcumb';
 import Brand from '../components/Common/Brand';
 import ServiceTwoMain from '../components/ServiceTwo/ServiceTwoMain';
-
+import ReactGA from 'react-ga';
 
 class ServiceTwo extends Component {
 

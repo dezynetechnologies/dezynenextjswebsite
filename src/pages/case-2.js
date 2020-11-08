@@ -4,7 +4,7 @@ import Footer from '../components/Layout/Footer/Footer';
 import SiteBreadcrumb from '../components/Common/Breadcumb';
 import Brand from '../components/Common/Brand';
 import CaseTwoMain from '../components/CaseStudy/CaseTwoMain';
-
+import ReactGA from 'react-ga';
 
 class CaseTwo extends Component {
 

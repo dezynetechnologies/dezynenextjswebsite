@@ -83,7 +83,7 @@ const Contact = () => {
                         <div className="col-xl-5 col-lg-5 mb-30">
                             <div className="map-wrapper">
                                 <div className="contact-map" style={{ height: '390px', width: '100%' }}>
-                                    <GoogleMapReact defaultCenter={defaultMap.center} defaultZoom={defaultMap.zoom}>
+                                    <GoogleMapReact  bootstrapURLKeys={{ key: 'AIzaSyBGb4srwTkHFqM1wFmxVrNLI-56DoBD9EM', libraries:['places']}} defaultCenter={defaultMap.center} defaultZoom={defaultMap.zoom}>
                                         <AnyReactComponent lat={59.955413} lng={30.337844} text="My Marker" />
                                     </GoogleMapReact>
                                 </div>
