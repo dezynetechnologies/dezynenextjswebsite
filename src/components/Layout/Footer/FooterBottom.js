@@ -8,12 +8,12 @@ const FooterBottom = () => {
                     <div className="row">
                         <div className="col-xl-8 col-lg-8 col-md-8">
                             <div className="copyright">
-                                <p><i className="far fa-copyright"></i> Copyright 2020 Dezyne. All rights reserved.</p>
+                                <p><i className="far fa-copyright"></i> Copyright 2023 Dezyne. All rights reserved.</p>
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4">
                             <div className="footer-bottem-text text-md-right">
-                                <p>Design By <a href="#">Dezyne Team</a></p>
+                                <p>Designed By <a href="#">Dezyne Team</a></p>
                             </div>
                         </div>
                     </div>

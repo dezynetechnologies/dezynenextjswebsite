@@ -3,14 +3,14 @@ import React from 'react';
 const About = () => {
 
     return (
-        <div className="about-area pt-130 pb-100">
+        <div id="about" className="about-area pt-130 pb-100">
             <div className="container">   
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 mb-30">
                         <div className="about-text">
-                            <span>who we are</span>
-                            <h1>More than 50+ years of experience  in <br></br> <span>    IT solutions </span></h1>
-                            <p>Sedut perspiciatis unde omnis iste natus error sitlupt tem accusantium doloremque laudantium totam    remap eriaeaque ipsa quae ab illo inventore veritatis </p>
+                            <span>what we do</span>
+                            <h1>Accelerating your <br></br> <span>Enterprise Application</span> Development</h1>
+                            <p></p>
                             <a href="#">Our Services</a>
                         </div>
                     </div>

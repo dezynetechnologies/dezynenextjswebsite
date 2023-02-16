@@ -18,7 +18,7 @@ const Testimonial = () =>  {
                     </div>
                     <div className="col-xl-6 col-lg-6 mb-30">
                         <div className="testimonial-img">
-                            <img src="assets/img/testimonial/test.png" alt="" />
+                            <img src="assets/img/testimonial/ashishjain.jpg" alt="" />
                         </div>
                     </div>
                 </div>

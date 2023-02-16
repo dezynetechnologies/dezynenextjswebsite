@@ -52,10 +52,12 @@ const BurgerMenus = ({setMenuOpen, menuOpen}) => {
           <div className="mm-menu">
             <ul>
               <li><Link href="/" as="/"><a>Home</a></Link></li>
-              <li><Link href="#about"><a>About</a></Link></li>
-              <li><Link href="#services"><a>Services</a></Link></li>
-              <li><Link href="#team"><a>Team</a></Link></li>
-              <li><Link href="#contact"><a>Contact</a></Link></li>
+              <li><Link href="/about" as="/about"><a>About</a></Link></li>
+              <li><Link href="/service-2" as="/service-2"><a>Services</a></Link></li>
+              <li><Link href="/blog" as="/blog"><a>Articles</a></Link></li>
+              <li><Link href="/team" as="/team"><a>Team</a></Link></li>
+							<li><Link href="/case-2" as="/case-2"><a>Case Studies</a></Link></li>
+              <li><Link href="/contact" as="/contact"><a>Contact</a></Link></li>
             </ul>
         </div>
       </div>

@@ -20,25 +20,25 @@ const CounterDefault = () => {
         {
             countIcon: 'box-check',
             countIconPrefix: 'fal',
-            countNum: 569,
+            countNum: 112,
             countTitle: 'Projct Complate'
         },
         {
             countIcon: 'heart',
             countIconPrefix: 'fal',
-            countNum: 356,
+            countNum: 35,
             countTitle: 'Happy Clients'
         },
         {
             countIcon: 'users',
             countIconPrefix: 'fal',
-            countNum : 783,
+            countNum : 12,
             countTitle: 'Business Partners'
         },
         {
             countIcon: 'trophy-alt',
             countIconPrefix: 'fal',
-            countNum : 894,
+            countNum : 50,
             countTitle: 'IT Consultant'
         }
 

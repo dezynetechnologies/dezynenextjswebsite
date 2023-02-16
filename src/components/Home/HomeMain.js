@@ -32,18 +32,18 @@ class HomeMain extends Component {
 	            {/* services-area-end */}
 
 	            {/* team-area-start */}
-				
+				<Team />
 	            {/* <Team /> team-area-end */}
 
 	            {/* cta-area-start */}
 	            <Cta />
 	            {/* cta-area-end */}
 
-	            {/* project-area-start */}
+	            {/* <Project /> project-area-start */}
 	            
 	            {/* <Project /> project-area-end */}
 
-	            {/* testmonial-area-start */}
+	            {/*  testmonial-area-start */}
 	            <Testimonial />
 	            {/* testmonial-area-end */}
 
@@ -51,7 +51,7 @@ class HomeMain extends Component {
 	            <CounterDefault />
 	            {/* counter-area-end */}
 
-	            {/* video-area-start */}
+	            {/*  video-area-start */}
 	            <Video />
 	            {/* video-area-end */}
 

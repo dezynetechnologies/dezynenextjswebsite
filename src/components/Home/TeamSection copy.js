@@ -6,7 +6,7 @@ const Team = () => {
     return (
         <div id="team" className="team-area pt-120 pb-100 pos-rel">
             <div className="shape d-none d-xl-block">
-                <div className="shape-item team-01 bounce-animate"><img src="assets/img/shape/shape-3.png" alt="" /></div>
+                <div className="shape-item team-01 bounce-animate"><img src="assets/img/shape/shape-6.png" alt="" /></div>
             </div>
             <div className="container">
                 <div className="row mb-50">
@@ -43,7 +43,7 @@ const Team = () => {
                     <div className="col-xl-3 col-lg-3 col-md-6 mb-30">
                         <div className="team-wrapper">
                             <div className="team-img">
-                                <img src="assets/img/team/deepak.jpg" alt="" />
+                                <img src="assets/img/team/dheeraj.jpg" alt="" />
                             </div>
                             <div className="team-text">
                                 <h4>Deepak Rustagi</h4>

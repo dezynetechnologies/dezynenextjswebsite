@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider && node server.js",
     "build": "next build",
-    "export": "next export",
+    "export": "next build && next export",
+    "deploy": "aws s3 sync ./out s3://dezyne.in",
+    "push": "export NODE_OPTIONS=--openssl-legacy-provider && next build && next export && aws s3 sync ./out s3://dezyne.in",
     "start": "cross-env NODE_ENV=production node server.js"
   },
   "keywords": [],
@@ -40,6 +42,7 @@
     "react-customizable-progressbar": "^1.0.1",
     "react-dom": "^16.12.0",
     "react-ga": "^3.2.0",
+    "react-ga4": "^2.0.0",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-modal-video": "^1.2.3",
     "react-owl-carousel2": "^0.3.0",

@@ -59,31 +59,25 @@ const TestimonialDefault = () => {
     return (
         <div className="testimonial-area">
             <Slider {...testimonialSettings}>
-                <div className="testimonial-wrapper col">
+            <div className="testimonial-wrapper col">
                     <div className="testimonial-text">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantie totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi artectbeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sipernatur aut
-                                        odit aut fugit sed quia consequunture</p>
-                        <h4>Kane Willumsons</h4>
-                        <span>SR Developer</span>
+                        <p>If there is any enterprise grade product development, engineering add-on or blockchain interventions, I would recommend Dheeraj Kaushik. Most of the IT projects / products suffer due to scope insufficiency or scope creep. Dheeraj has that uncanny skill to dig out by understanding the whole picture and making suggestion that prove a close match for the needs. It has been great past 4 years working with him. I will highly recommend him.</p>
+                        <h4>Ashish Jain</h4>
+                        <span>CEO, The Startup Board</span>
                     </div>
                 </div>
                 <div className="testimonial-wrapper col">
                     <div className="testimonial-text">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantie totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi artectbeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sipernatur aut
-                                        odit aut fugit sed quia consequunture</p>
-                        <h4>Kane Willumsons</h4>
-                        <span>SR Developer</span>
+                        <p>If there is any enterprise grade product development, engineering add-on or blockchain interventions, I would recommend Dheeraj Kaushik. Most of the IT projects / products suffer due to scope insufficiency or scope creep. Dheeraj has that uncanny skill to dig out by understanding the whole picture and making suggestion that prove a close match for the needs. It has been great past 4 years working with him. I will highly recommend him.</p>
+                        <h4>Ashish Jain</h4>
+                        <span>CEO, The Startup Board</span>
                     </div>
                 </div>
                 <div className="testimonial-wrapper col">
                     <div className="testimonial-text">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudantie totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi artectbeatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sipernatur aut
-                                        odit aut fugit sed quia consequunture</p>
-                        <h4>Kane Willumsons</h4>
-                        <span>SR Developer</span>
+                        <p>If there is any enterprise grade product development, engineering add-on or blockchain interventions, I would recommend Dheeraj Kaushik. Most of the IT projects / products suffer due to scope insufficiency or scope creep. Dheeraj has that uncanny skill to dig out by understanding the whole picture and making suggestion that prove a close match for the needs. It has been great past 4 years working with him. I will highly recommend him.</p>
+                        <h4>Ashish Jain</h4>
+                        <span>CEO, The Startup Board</span>
                     </div>
                 </div>
             </Slider>

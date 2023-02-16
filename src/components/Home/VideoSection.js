@@ -25,10 +25,9 @@ const Video = () => {
                             <div className="section-title section-title-white">
                                 <span className="b-sm-left-1"></span>
                                 <span className="b-sm-left-2"></span>
-                                <span className="sub-t-left">latest video</span>
-                                <h1>Watch Our Latest Videos Program</h1>
-                                <p>But I must explain to you how all this mistaken idea of denoun
-                                cing pleasure and praising pain was born and I will giv complete account of the system, and expound the actual teachings of the great explorer of the truth the master-builder of</p>
+                                <span className="sub-t-left">Our Offerings</span>
+                                <h1>Our Perspective On Enterprise Applications</h1>
+                                <p>With the advances in AI and commericial availability of good quality code generators; low-code or no-code is going to the industry norm. We at Dezyne, help our partners adopt the same for accelerated application development saving dollars and time.</p>
                             </div>
                         </div>
                     </div>

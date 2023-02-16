@@ -23,33 +23,58 @@ const Footer = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-3 col-md-4">
+                        <div className="col-xl-2 col-lg-2 col-md-4">
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Our Services</h4>
                                 <ul className="fotter-menu">
-                                    <li><a href="#services">Low-code Apps </a></li>
-                                    <li><a href="#services">Modern data-stack </a></li>
-                                    <li><a href="#services">Cloud Engineering</a></li>
-                                    <li><a href="#services">DevOps & Platforms</a></li>
-                                    <li><a href="#services">AI Enablement</a></li>
-                                    <li><a href="#services">Product Teams</a></li>
+                                    <li><a href="#">User Strategy </a></li>
+                                    <li><a href="#">Product Designing </a></li>
+                                    <li><a href="#">Marketing Strategy</a></li>
+                                    <li><a href="#">IT Consultancy</a></li>
+                                    <li><a href="#">Server Security</a></li>
+                                    <li><a href="#">Product Marketing</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-3 col-md-4">
+                        <div className="col-xl-2 col-lg-2 col-md-4">
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Quick Links</h4>
                                 <ul className="fotter-menu">
-                                    <li><a href="#about">About Us</a></li>
-                                    <li><a href="#consult">Need a Consultant?</a></li>
-                                    <li><a href="#services">Our Services</a></li>
-                                    <li><a href="#consult">Have Any Questions?</a></li>
-                                    <li><a href="#team">Meet Our Team</a></li>
-                                    <li><a href="#contact">Contact Us</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Need a Consultant?</a></li>
+                                    <li><a href="#">Our Services</a></li>
+                                    <li><a href="#">Have Any Questions?</a></li>
+                                    <li><a href="#">Meet Our Team</a></li>
+                                    <li><a href="#">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-xl-3 col-lg-3 col-md-6">
+                            <div className="footer-wrapper mb-30">
+                                <h4 className="footer-title">Recent News</h4>
+                                <div className="footer-news">
+                                    <ul>
+                                        <li>
+                                            <div className="footer-news-img">
+                                                <a href="#"><img src="assets/img/footer/01.jpg" alt="" /></a>
+                                            </div>
+                                            <div className="footer-news-text">
+                                                <h5><a href="#">Building Real Time Charts With Grap HQL & Postgres</a></h5>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="footer-news-img">
+                                                <a href="#"><img src="assets/img/footer/02.jpg" alt="" /></a>
+                                            </div>
+                                            <div className="footer-news-text">
+                                                <h5><a href="#">How To Build An Endless Runner Or Virtual Reality</a></h5>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-2 col-lg-2 col-md-6">
                             <div className="footer-wrapper mb-30">
                                 <h4 className="footer-title">Contact Us</h4>
                                 <div className="footer-info">
